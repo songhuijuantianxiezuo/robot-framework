@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.6.4 on win32)" generated="20180906 10:26:24.785">
+<suite id="s1" name="Testcase2" source="C:\Users\lenovo\Desktop\robot-framework\Test\testcase2.robot">
+<test id="s1-t1" name="Testcase1:">
+<kw name="点击百度" library="keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>url=${URL}</arg>
+<arg>browser=chrome</arg>
+</arguments>
+<msg timestamp="20180906 10:26:24.986" level="INFO">Opening browser 'chrome' to base url 'https://www.baidu.com/'.</msg>
+<status status="PASS" starttime="20180906 10:26:24.985" endtime="20180906 10:26:29.050"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20180906 10:26:29.050" endtime="20180906 10:26:30.201"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>点击百度</arg>
+</arguments>
+<status status="PASS" starttime="20180906 10:26:30.201" endtime="20180906 10:26:30.203"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:26:24.985" endtime="20180906 10:26:30.204"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${timeout}</arg>
+</arguments>
+<msg timestamp="20180906 10:26:33.209" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180906 10:26:30.206" endtime="20180906 10:26:33.209"></status>
+</kw>
+<kw name="点击hao123" library="keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css=${djh123}</arg>
+</arguments>
+<msg timestamp="20180906 10:26:33.213" level="INFO">Clicking element 'css=#u1 &gt; a:nth-child(2)'.</msg>
+<status status="PASS" starttime="20180906 10:26:33.212" endtime="20180906 10:26:39.088"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>点击hao123</arg>
+</arguments>
+<status status="PASS" starttime="20180906 10:26:39.089" endtime="20180906 10:26:39.090"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:26:33.211" endtime="20180906 10:26:39.090"></status>
+</kw>
+<kw name="输入搜索信息" library="keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>css=${ssxx}</arg>
+<arg>${xx}</arg>
+</arguments>
+<msg timestamp="20180906 10:26:39.095" level="INFO">Typing text 'dddd' into text field 'css=#search-input'.</msg>
+<status status="PASS" starttime="20180906 10:26:39.094" endtime="20180906 10:26:39.347"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:26:39.091" endtime="20180906 10:26:39.347"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${timeout}</arg>
+</arguments>
+<msg timestamp="20180906 10:26:42.350" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180906 10:26:39.348" endtime="20180906 10:26:42.350"></status>
+</kw>
+<kw name="点击提交" library="keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css=${tj}</arg>
+</arguments>
+<msg timestamp="20180906 10:26:42.351" level="INFO">Clicking element 'css=#search-form &gt; div.button-wrapper.g-ib &gt; input'.</msg>
+<status status="PASS" starttime="20180906 10:26:42.351" endtime="20180906 10:26:42.535"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:26:42.350" endtime="20180906 10:26:42.535"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${timeout}</arg>
+</arguments>
+<msg timestamp="20180906 10:26:45.539" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180906 10:26:42.538" endtime="20180906 10:26:45.539"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20180906 10:26:45.540" endtime="20180906 10:26:47.929"></status>
+</kw>
+<doc>testcase1</doc>
+<tags>
+<tag>testcase1</tag>
+</tags>
+<status status="PASS" starttime="20180906 10:26:24.984" endtime="20180906 10:26:47.931" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Testcase2:">
+<kw name="点击百度" library="keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>url=${URL}</arg>
+<arg>browser=chrome</arg>
+</arguments>
+<msg timestamp="20180906 10:26:47.952" level="INFO">Opening browser 'chrome' to base url 'https://www.baidu.com/'.</msg>
+<status status="PASS" starttime="20180906 10:26:47.951" endtime="20180906 10:26:52.224"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20180906 10:26:52.224" endtime="20180906 10:26:53.369"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>点击百度</arg>
+</arguments>
+<status status="PASS" starttime="20180906 10:26:53.370" endtime="20180906 10:26:53.372"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:26:47.950" endtime="20180906 10:26:53.375"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${timeout}</arg>
+</arguments>
+<msg timestamp="20180906 10:26:56.384" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180906 10:26:53.381" endtime="20180906 10:26:56.384"></status>
+</kw>
+<kw name="点击hao123" library="keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css=${djh123}</arg>
+</arguments>
+<msg timestamp="20180906 10:26:56.384" level="INFO">Clicking element 'css=#u1 &gt; a:nth-child(2)'.</msg>
+<status status="PASS" starttime="20180906 10:26:56.384" endtime="20180906 10:27:03.678"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>点击hao123</arg>
+</arguments>
+<status status="PASS" starttime="20180906 10:27:03.679" endtime="20180906 10:27:03.681"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:26:56.384" endtime="20180906 10:27:03.682"></status>
+</kw>
+<kw name="输入搜索信息" library="keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>css=${ssxx}</arg>
+<arg>${xx}</arg>
+</arguments>
+<msg timestamp="20180906 10:27:03.687" level="INFO">Typing text 'dddd' into text field 'css=#search-input'.</msg>
+<status status="PASS" starttime="20180906 10:27:03.686" endtime="20180906 10:27:03.929"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:27:03.684" endtime="20180906 10:27:03.929"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${timeout}</arg>
+</arguments>
+<msg timestamp="20180906 10:27:06.931" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180906 10:27:03.930" endtime="20180906 10:27:06.931"></status>
+</kw>
+<kw name="点击提交" library="keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css=${tj}</arg>
+</arguments>
+<msg timestamp="20180906 10:27:06.932" level="INFO">Clicking element 'css=#search-form &gt; div.button-wrapper.g-ib &gt; input'.</msg>
+<status status="PASS" starttime="20180906 10:27:06.932" endtime="20180906 10:27:07.087"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:27:06.932" endtime="20180906 10:27:07.087"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${timeout}</arg>
+</arguments>
+<msg timestamp="20180906 10:27:10.091" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180906 10:27:07.089" endtime="20180906 10:27:10.091"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20180906 10:27:10.091" endtime="20180906 10:27:12.415"></status>
+</kw>
+<doc>testcase2</doc>
+<tags>
+<tag>testcase2</tag>
+</tags>
+<status status="PASS" starttime="20180906 10:26:47.947" endtime="20180906 10:27:12.415" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Testcase3:">
+<kw name="点击百度" library="keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>url=${URL}</arg>
+<arg>browser=chrome</arg>
+</arguments>
+<msg timestamp="20180906 10:27:12.421" level="INFO">Opening browser 'chrome' to base url 'https://www.baidu.com/'.</msg>
+<status status="PASS" starttime="20180906 10:27:12.421" endtime="20180906 10:27:16.470"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20180906 10:27:16.470" endtime="20180906 10:27:17.653"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>点击百度</arg>
+</arguments>
+<status status="PASS" starttime="20180906 10:27:17.655" endtime="20180906 10:27:17.656"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:27:12.420" endtime="20180906 10:27:17.657"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${timeout}</arg>
+</arguments>
+<msg timestamp="20180906 10:27:20.664" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180906 10:27:17.661" endtime="20180906 10:27:20.664"></status>
+</kw>
+<kw name="点击hao123" library="keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css=${djh123}</arg>
+</arguments>
+<msg timestamp="20180906 10:27:20.665" level="INFO">Clicking element 'css=#u1 &gt; a:nth-child(2)'.</msg>
+<status status="PASS" starttime="20180906 10:27:20.665" endtime="20180906 10:27:25.999"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>点击hao123</arg>
+</arguments>
+<status status="PASS" starttime="20180906 10:27:25.999" endtime="20180906 10:27:26.000"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:27:20.664" endtime="20180906 10:27:26.000"></status>
+</kw>
+<kw name="输入搜索信息" library="keywords">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>css=${ssxx}</arg>
+<arg>${xx}</arg>
+</arguments>
+<msg timestamp="20180906 10:27:26.002" level="INFO">Typing text 'dddd' into text field 'css=#search-input'.</msg>
+<status status="PASS" starttime="20180906 10:27:26.001" endtime="20180906 10:27:26.223"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:27:26.001" endtime="20180906 10:27:26.223"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${timeout}</arg>
+</arguments>
+<msg timestamp="20180906 10:27:29.226" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180906 10:27:26.224" endtime="20180906 10:27:29.226"></status>
+</kw>
+<kw name="点击提交" library="keywords">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css=${tj}</arg>
+</arguments>
+<msg timestamp="20180906 10:27:29.227" level="INFO">Clicking element 'css=#search-form &gt; div.button-wrapper.g-ib &gt; input'.</msg>
+<status status="PASS" starttime="20180906 10:27:29.227" endtime="20180906 10:27:29.416"></status>
+</kw>
+<status status="PASS" starttime="20180906 10:27:29.226" endtime="20180906 10:27:29.416"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>${timeout}</arg>
+</arguments>
+<msg timestamp="20180906 10:27:32.419" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20180906 10:27:29.418" endtime="20180906 10:27:32.419"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20180906 10:27:32.420" endtime="20180906 10:27:34.712"></status>
+</kw>
+<doc>testcase3</doc>
+<tags>
+<tag>Testcase3</tag>
+</tags>
+<status status="PASS" starttime="20180906 10:27:12.419" endtime="20180906 10:27:34.712" critical="yes"></status>
+</test>
+<doc>Testing MercuryTours Website</doc>
+<status status="PASS" starttime="20180906 10:26:24.787" endtime="20180906 10:27:34.715"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">testcase1</stat>
+<stat pass="1" fail="0">testcase2</stat>
+<stat pass="1" fail="0">Testcase3</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Testcase2">Testcase2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
